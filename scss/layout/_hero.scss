@@ -1,0 +1,61 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    
+    .hero-img {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+
+        img {
+            height: 90%;
+            margin-right: -5rem;
+        }
+    }
+    
+    .hero-content {
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3rem;
+
+        .content-main {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            div a {
+                display: inline-block;
+                margin-top: 2rem;
+                &:hover::after {
+                    content: ' >';
+                }
+            }
+        }
+
+        .content-bottom {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
+
+.experience-info {
+    .xp-number {
+        display: inline;
+        font-family: $font-family-titles;
+        font-size: 2.5rem;
+    }
+
+    .xp-description {
+        display: inline-block;
+        width: 5rem;
+        font-family: $font-family-paragraph;
+        font-size: .75rem;
+    }
+}

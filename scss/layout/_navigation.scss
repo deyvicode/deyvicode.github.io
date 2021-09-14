@@ -1,0 +1,17 @@
+header, .container {
+    width: 75%;
+    max-width: 960px;
+	min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+
+    a {
+        margin-left: .5rem;
+    }
+}

@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
+a {
+  text-decoration: none;
+  font-size: 1rem; }
+
+header, .container {
+  width: 75%;
+  max-width: 960px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0; }
+  nav a {
+    margin-left: .5rem; }
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%; }
+  .hero .hero-img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end; }
+    .hero .hero-img img {
+      height: 90%;
+      margin-right: -5rem; }
+  .hero .hero-content {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3rem; }
+    .hero .hero-content .content-main {
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      .hero .hero-content .content-main div a {
+        display: inline-block;
+        margin-top: 2rem; }
+        .hero .hero-content .content-main div a:hover::after {
+          content: ' >'; }
+    .hero .hero-content .content-bottom {
+      display: flex;
+      gap: 1rem; }
+
+.experience-info .xp-number {
+  display: inline;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 2.5rem; }
+
+.experience-info .xp-description {
+  display: inline-block;
+  width: 5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: .75rem; }
+
+.tag {
+  display: inline;
+  background-color: #64F5AC;
+  color: #25262A;
+  padding: .5rem;
+  font-family: "Ubuntu Mono", monospace; }
+
+body {
+  background-color: #2D2E32;
+  color: #C5C5C5; }
+
+h1, h2, h3, h4, a {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.75rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+a {
+  color: #F2F2F2; }
+  a:hover, a.active {
+    color: #64F5AC; }
+
+p, .paragraph {
+  color: #C5C5C5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem; }

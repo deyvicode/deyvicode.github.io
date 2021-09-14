@@ -1,0 +1,38 @@
+body {
+    background-color: $color-neutro;
+    color: $color-text-paragraph;
+}
+
+h1, h2, h3, h4, a {
+    font-family: $font-family-titles;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1rem * 2.5;
+}
+
+h2 {
+    font-size: 1rem * 2;
+}
+
+h3 {
+    font-size: 1rem * 1.75;
+}
+
+h4 {
+    font-size: 1rem * 1.5;
+}
+
+a {
+    color: $color-text;
+    &:hover, &.active {
+        color: $color-accent-green;
+    }
+}
+
+p, .paragraph {
+    color: $color-text-paragraph;
+    font-family: $font-family-paragraph;
+    font-size: 1rem;
+}
