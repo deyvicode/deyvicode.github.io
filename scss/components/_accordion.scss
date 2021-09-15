@@ -1,0 +1,52 @@
+.accordion {
+    margin: 1rem 0;
+
+    .accordion-item {
+
+        margin-bottom: 1rem;
+
+        .accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $color-neutro;
+            padding: .5rem 1rem;
+            border-radius: $border-radius;
+            cursor: pointer;
+        }
+
+        .accordion-body {
+            display: none;
+            padding: .5rem 1rem;
+
+            ul {
+                margin-left: 1rem;
+
+                li {
+                    margin-bottom: 1rem;
+                    
+                    b {
+                        margin-bottom: .75rem;
+                    }
+                }
+            }
+        }
+
+        &.active {
+
+            i {
+                color: $color-accent-green;
+            }
+
+            .accordion-body {
+                display: block;
+                
+    
+                li {
+                    color: $color-accent-green;
+                }
+            }
+
+        }
+    }
+}

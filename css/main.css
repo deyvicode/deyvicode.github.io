@@ -1,8 +1,16 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 a {
   text-decoration: none;
   font-size: 1rem; }
+
+section {
+  padding: 4rem 0; }
 
 header, .container {
   width: 75%;
@@ -70,32 +78,149 @@ nav {
   padding: .5rem;
   font-family: "Ubuntu Mono", monospace; }
 
+.tab {
+  display: flex;
+  gap: 3rem; }
+  .tab .tab-links {
+    flex: 2; }
+    .tab .tab-links .card {
+      background-color: #2D2E32;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer; }
+      .tab .tab-links .card:hover .card-header {
+        color: #64F5AC; }
+      .tab .tab-links .card.active .card-header {
+        color: #64F5AC; }
+      .tab .tab-links .card .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .tab .tab-links .card .card-header i {
+          font-size: 1.5rem; }
+  .tab .tab-contents {
+    flex: 3; }
+    .tab .tab-contents .tab-content {
+      display: none; }
+      .tab .tab-contents .tab-content.active {
+        display: block; }
+
+.accordion {
+  margin: 1rem 0; }
+  .accordion .accordion-item {
+    margin-bottom: 1rem; }
+    .accordion .accordion-item .accordion-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2D2E32;
+      padding: .5rem 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer; }
+    .accordion .accordion-item .accordion-body {
+      display: none;
+      padding: .5rem 1rem; }
+      .accordion .accordion-item .accordion-body ul {
+        margin-left: 1rem; }
+        .accordion .accordion-item .accordion-body ul li {
+          margin-bottom: 1rem; }
+          .accordion .accordion-item .accordion-body ul li b {
+            margin-bottom: .75rem; }
+    .accordion .accordion-item.active i {
+      color: #64F5AC; }
+    .accordion .accordion-item.active .accordion-body {
+      display: block; }
+      .accordion .accordion-item.active .accordion-body li {
+        color: #64F5AC; }
+
+pre {
+  display: block;
+  background-color: #2D2E32;
+  color: #F2F2F2;
+  font-size: 1rem;
+  font-family: "Ubuntu Mono", monospace;
+  white-space: pre-wrap;
+  margin: 24px 0;
+  padding: .5em 0;
+  overflow-y: auto;
+  tab-size: 2;
+  counter-reset: line; }
+
+pre.line-number span {
+  display: block;
+  line-height: 0; }
+
+pre.line-number span:before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  padding: 0 .8em;
+  margin-right: .5em;
+  width: 1em;
+  color: #888; }
+
+pre.code-array-list.with-title span:not(:first-child):not(:last-child):not(:nth-child(2)):after {
+  content: ',';
+  color: #64F5AC; }
+
+pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title span:last-child {
+  color: #64F5AC; }
+
 body {
   background-color: #2D2E32;
   color: #C5C5C5; }
 
-h1, h2, h3, h4, a {
+h1, h2, h3, h4, h5, h6, a {
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400; }
 
 h1 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  margin: 1rem 0; }
 
 h2 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin: 1rem 0; }
 
 h3 {
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  margin: .75rem 0; }
 
 h4 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin: .5rem 0; }
+
+h5 {
+  font-size: 1.25rem;
+  margin: .25rem 0; }
 
 a {
   color: #F2F2F2; }
   a:hover, a.active {
     color: #64F5AC; }
 
-p, .paragraph {
+p, b, .paragraph {
   color: #C5C5C5;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem; }
+
+small {
+  font-family: "Open Sans", sans-serif;
+  font-size: .75rem; }
+
+.bg-primary {
+  background-color: #25262A; }
+
+.bg-neutro {
+  background-color: #2D2E32; }
+
+.color-accent-green {
+  color: #64F5AC; }
+
+.color-paragraph-gray {
+  color: #C5C5C5; }
+
+.color-title {
+  color: #F2F2F2; }

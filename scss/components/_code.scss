@@ -1,0 +1,38 @@
+pre {
+    display: block;
+    background-color: $color-neutro;
+    color: $color-text;
+    font-size: 1rem;
+    font-family: $font-family-titles;
+    white-space: pre-wrap;
+    margin: 24px 0;
+    padding: .5em 0;
+    overflow-y: auto;
+    tab-size: 2;
+    counter-reset: line;
+}
+
+pre.line-number span {
+    display: block;
+    line-height: 0;
+}
+
+pre.line-number span:before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0 .8em;
+    margin-right: .5em;
+    width: 1em;
+    color: #888
+}
+
+pre.code-array-list.with-title span:not(:first-child):not(:last-child):not(:nth-child(2)):after {
+    content: ',';
+    color: $color-accent-green;
+}
+
+pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title span:last-child {
+    color: $color-accent-green;
+}

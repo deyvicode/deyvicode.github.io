@@ -3,25 +3,34 @@ body {
     color: $color-text-paragraph;
 }
 
-h1, h2, h3, h4, a {
+h1, h2, h3, h4, h5, h6, a {
     font-family: $font-family-titles;
     font-weight: 400;
 }
 
 h1 {
     font-size: 1rem * 2.5;
+    margin: 1rem 0;
 }
 
 h2 {
     font-size: 1rem * 2;
+    margin: 1rem 0;
 }
 
 h3 {
     font-size: 1rem * 1.75;
+    margin: .75rem 0;
 }
 
 h4 {
     font-size: 1rem * 1.5;
+    margin: .5rem 0;
+}
+
+h5 {
+    font-size: 1rem * 1.25;
+    margin: .25rem 0;
 }
 
 a {
@@ -31,8 +40,33 @@ a {
     }
 }
 
-p, .paragraph {
+p, b, .paragraph {
     color: $color-text-paragraph;
     font-family: $font-family-paragraph;
     font-size: 1rem;
+}
+
+small {
+    font-family: $font-family-paragraph;
+    font-size: .75rem;
+}
+
+.bg-primary {
+    background-color: $color-primary;
+}
+
+.bg-neutro {
+    background-color: $color-neutro;
+}
+
+.color-accent-green {
+    color: $color-accent-green;
+}
+
+.color-paragraph-gray {
+    color: $color-text-paragraph;
+}
+
+.color-title {
+    color: $color-text;
 }

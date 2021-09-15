@@ -1,0 +1,47 @@
+.tab {
+    display: flex;
+    gap: 3rem;
+
+    .tab-links {
+        flex: 2;
+    
+        .card {
+            background-color: $color-neutro;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: $border-radius;
+            cursor: pointer;
+
+            &:hover .card-header {
+                color: $color-accent-green;
+            }
+
+            &.active .card-header {
+                color: $color-accent-green;
+            }
+
+            .card-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                i {
+                    font-size: 1rem * 1.5;
+                }
+            }
+            
+        }
+    }
+
+    .tab-contents {
+        flex: 3;
+
+        .tab-content {
+            display: none;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
