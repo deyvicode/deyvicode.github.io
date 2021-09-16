@@ -1,10 +1,10 @@
-let pageLocation = window.pageYOffset
+let pageLocation = document.body.getBoundingClientRect().y
 let currentLocation = 0
 let navbar = document.getElementById('navbar')
 
 window.addEventListener('scroll', function () {
-    currentLocation = window.pageYOffset
-    if (pageLocation >= currentLocation) {
+    currentLocation = document.body.getBoundingClientRect().y
+    if (pageLocation <= currentLocation) {
         navbar.style.top = '0'
         navbar.style.boxShadow = '0 .1rem .5rem #25262A'
     } else {
