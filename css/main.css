@@ -11,6 +11,14 @@ a {
 
 section {
   padding: 4rem 0; }
+  section .section-title {
+    text-align: center;
+    margin-bottom: 4rem; }
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem; }
 
 header, .container {
   width: 75%;
@@ -28,7 +36,7 @@ nav {
 
 .hero {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   width: 100%; }
   .hero .hero-img {
     height: 100%;
@@ -88,9 +96,12 @@ nav {
       margin-bottom: 1rem;
       padding: 1rem;
       border-radius: 0.5rem;
-      cursor: pointer; }
-      .tab .tab-links .card:hover .card-header {
-        color: #64F5AC; }
+      cursor: pointer;
+      /*
+            &:hover .card-header {
+                color: $color-accent-green;
+            }
+            */ }
       .tab .tab-links .card.active .card-header {
         color: #64F5AC; }
       .tab .tab-links .card .card-header {
@@ -99,6 +110,8 @@ nav {
         align-items: center; }
         .tab .tab-links .card .card-header i {
           font-size: 1.5rem; }
+      .tab .tab-links .card .card-body {
+        color: #92949D; }
   .tab .tab-contents {
     flex: 3; }
     .tab .tab-contents .tab-content {
@@ -167,6 +180,140 @@ pre.code-array-list.with-title span:not(:first-child):not(:last-child):not(:nth-
 
 pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title span:last-child {
   color: #64F5AC; }
+
+.card-project {
+  background-color: #25262A;
+  border-radius: 0.5rem; }
+  .card-project .card-img {
+    width: 100%;
+    height: 16rem; }
+    .card-project .card-img img {
+      border-radius: 0.5rem 0.5rem 0 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .5; }
+  .card-project:hover .card-img img {
+    opacity: .9; }
+  .card-project .card-footer {
+    display: flex; }
+    .card-project .card-footer .project-info {
+      flex: 1;
+      padding: .5rem 1rem; }
+      .card-project .card-footer .project-info .project-name {
+        font-size: 1.2rem;
+        font-family: "Ubuntu Mono", monospace; }
+      .card-project .card-footer .project-info .project-company {
+        font-size: .75rem;
+        font-family: "Open Sans", sans-serif;
+        color: #92949D; }
+    .card-project .card-footer .project-more {
+      font-family: "Ubuntu Mono", monospace;
+      background-color: #64F5AC;
+      color: #2D2E32;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      padding: 0 1rem;
+      border-end-end-radius: 0.5rem;
+      cursor: pointer; }
+
+.modal-container {
+  display: flex;
+  background-color: rgba(45, 46, 50, 0.9);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  pointer-events: none;
+  opacity: 0; }
+  .modal-container .modal {
+    background-color: #25262A;
+    width: 80%;
+    max-width: 100%;
+    height: 80%;
+    max-width: 100%;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr; }
+    .modal-container .modal .modal-body {
+      padding: 2rem 3rem 4rem 3rem;
+      overflow: hidden; }
+      .modal-container .modal .modal-body .modal-header {
+        text-align: right;
+        margin-bottom: 1rem; }
+        .modal-container .modal .modal-body .modal-header i:hover {
+          color: #64F5AC;
+          cursor: pointer; }
+      .modal-container .modal .modal-body .project-info {
+        height: 100%;
+        overflow: auto; }
+        .modal-container .modal .modal-body .project-info .project-name {
+          font-family: "Ubuntu Mono", monospace;
+          font-size: 1.75rem; }
+        .modal-container .modal .modal-body .project-info .project-company {
+          font-family: "Open Sans", sans-serif;
+          color: #92949D;
+          margin-bottom: 1rem; }
+        .modal-container .modal .modal-body .project-info .project-description p {
+          margin-bottom: .5rem; }
+        .modal-container .modal .modal-body .project-info .list-technologies {
+          margin-top: 1rem; }
+          .modal-container .modal .modal-body .project-info .list-technologies ul {
+            margin-top: .75rem;
+            list-style: none;
+            font-family: "Ubuntu Mono", monospace; }
+            .modal-container .modal .modal-body .project-info .list-technologies ul li {
+              margin-bottom: .5rem;
+              margin-left: 1.2rem;
+              color: #C5C5C5; }
+              .modal-container .modal .modal-body .project-info .list-technologies ul li::before {
+                content: "\2022";
+                color: #64F5AC;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em; }
+  .modal-container.show {
+    pointer-events: auto;
+    opacity: 1; }
+
+.btn-primary {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #64F5AC;
+  padding: .6rem .75rem;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #25262A;
+  font-size: 1rem;
+  cursor: pointer; }
+
+.carousel-gallery {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  row-gap: 30px;
+  cursor: n-resize;
+  padding: 2rem 0;
+  margin-left: 2.5rem; }
+  .carousel-gallery::-webkit-scrollbar {
+    display: none; }
+  .carousel-gallery img {
+    width: 100%;
+    border-radius: 0.5rem; }
+
+::-webkit-scrollbar {
+  background-color: #25262A;
+  width: .75rem; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #64F5AC;
+  border-radius: 0.5rem; }
 
 body {
   background-color: #2D2E32;

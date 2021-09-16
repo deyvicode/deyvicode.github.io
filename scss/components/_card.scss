@@ -1,0 +1,55 @@
+.card-project {
+    background-color: $color-primary;
+    border-radius: $border-radius;
+
+    .card-img {
+        width: 100%;
+        height: 16rem;
+        
+        img {
+            border-radius: $border-radius $border-radius 0 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: .5;
+        }
+    }
+    
+    &:hover .card-img img {
+        opacity: .9;
+    }
+
+    .card-footer {
+        display: flex;
+        
+        .project-info {
+            flex: 1;
+            padding: .5rem 1rem;
+
+            .project-name {
+                font-size: 1.2rem;
+                font-family: $font-family-titles;
+            }
+            .project-company {
+                font-size: .75rem;
+                font-family: $font-family-paragraph;
+                //color: rgba($color-text-paragraph, .4);
+                color: $color-neutro-light;
+            }
+        }
+        
+        .project-more {
+            font-family: $font-family-titles;
+            //border: 1px solid $color-accent-green;
+            //color: $color-accent-green;
+            background-color: $color-accent-green;
+            color: $color-neutro;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            padding: 0 1rem;
+            border-end-end-radius: $border-radius;
+            cursor: pointer;
+        }
+    }
+}

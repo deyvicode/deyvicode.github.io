@@ -11,11 +11,11 @@
             padding: 1rem;
             border-radius: $border-radius;
             cursor: pointer;
-
+            /*
             &:hover .card-header {
                 color: $color-accent-green;
             }
-
+            */
             &.active .card-header {
                 color: $color-accent-green;
             }
@@ -30,6 +30,9 @@
                 }
             }
             
+            .card-body {
+                color: $color-neutro-light;
+            }
         }
     }
 

@@ -1,3 +1,14 @@
+::-webkit-scrollbar {
+    background-color: $color-primary;
+    width: .75rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $color-accent-green;
+    border-radius: $border-radius;
+    //border-left: 3px solid $color-primary;
+    //border-right: 3px solid $color-primary;
+}
+
 body {
     background-color: $color-neutro;
     color: $color-text-paragraph;

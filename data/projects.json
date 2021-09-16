@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Papeat",
+        "company": "Imaginatics Peru SAC",
+        "resume": "Aplicacion web para restaurantes con todas las funcionalidades para cubrir todos los sus procesos y su facturación electronica.",
+        "description": [
+            "Aplicacion web para restaurantes con todas las funcionalidades para cubrir todos los sus procesos y su facturación electronica.",
+            "Integra Facturación Electrónica, Atención Autoservicio en local, sistema de delivery (cliente, local, cocina, reparto, etc)."
+        ],
+        "url": "papeat.com",
+        "gallery": [
+            "/img/projects/papeat-1.jpg",
+            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "technologies": ["Bootstrap", "Laravel", "Jquery", "MySql", "Firebase", "Pusher", "Mercado Pago API"]
+    },
+    {
+        "name": "SafeBill",
+        "company": "Imaginatics Peru SAC",
+        "resume": "Aplicacion web de facturacion electrónica bajo los estandares de SUNAT.",
+        "description": [
+            "Aplicación web de facturación electrónica creada por Imaginatics Perú bajo las normativas de SUNAT."
+        ],
+        "url": "papeat.com",
+        "gallery": [
+            "/img/projects/safebill-1.jpg",
+            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+    },
+    {
+        "name": "Indicadores OTI",
+        "company": "Dirección Regional de Salud - Huánuco",
+        "resume": "Aplicacion web para el seguimiento y control de atenciones del niño y gestante en la región de Huánuco.",
+        "description": [
+            "El presente proyecto “SOFTWARE WEB PARA EL SEGUIMIENTO DE ATENCIONES DEL NIÑO Y GESTANTE” fue desarrollado con el objetivo de brindar una herramienta de consulta eficaz, confiable y moderna para la toma de decisiones de los diferentes niveles que conforman la Dirección de Salud de Huanuco."
+        ],
+        "url": "papeat.com",
+        "gallery": [
+            "/img/projects/oti-1.jpg",
+            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+    },
+    {
+        "name": "Web Convocatorias",
+        "company": "Red de Salud Huánuco",
+        "resume": "Aplicacion web para convocatorias de RRHH como proyecto de bachillerato.",
+        "description": [
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
+        ],
+        "url": "papeat.com",
+        "gallery": [
+            "/img/projects/convocatorias-1.jpg",
+            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+    },
+    {
+        "name": "Table Oriente",
+        "company": "Table Oriente SAC",
+        "resume": "Software de escritorio para administrar recursos e indumentaria.",
+        "description": [
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
+        ],
+        "url": null,
+        "gallery": [
+            "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+    },
+    {
+        "name": "Agenda Escolar",
+        "company": "La Catolica",
+        "resume": "Aplicacion web para gestion de actividades escolares y matricula de estudiantes.",
+        "description": [
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
+        ],
+        "url": "papeat.com",
+        "gallery": [
+            "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+    }
+]
