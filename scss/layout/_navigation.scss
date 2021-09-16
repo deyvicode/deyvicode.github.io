@@ -1,4 +1,4 @@
-header, .container {
+.container {
     width: 75%;
     max-width: 960px;
 	min-width: 320px;
@@ -7,11 +7,28 @@ header, .container {
 }
 
 nav {
+    position: fixed;
+    background-color: $color-neutro;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
-    margin: 1.5rem 0;
+    justify-content: center;
+    z-index: $nabvar-index;
+    transition: all ease-in-out 1s;
+    //box-shadow: 0 .1rem .5rem $color-primary;
 
-    a {
-        margin-left: .5rem;
+    .container {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem 0;
+
+        .menu a {
+            margin-right: 1rem;
+        }
+
+        .social-links a {
+            margin-right: 1rem;
+        }
+    
     }
 }

@@ -20,7 +20,7 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 3rem; }
 
-header, .container {
+.container {
   width: 75%;
   max-width: 960px;
   min-width: 320px;
@@ -28,15 +28,26 @@ header, .container {
   margin-right: auto; }
 
 nav {
+  position: fixed;
+  background-color: #2D2E32;
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
-  margin: 1.5rem 0; }
-  nav a {
-    margin-left: .5rem; }
+  justify-content: center;
+  z-index: 100;
+  transition: all ease-in-out 1s; }
+  nav .container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0; }
+    nav .container .menu a {
+      margin-right: 1rem; }
+    nav .container .social-links a {
+      margin-right: 1rem; }
 
 .hero {
   position: relative;
-  height: 90vh;
+  height: 95vh;
   width: 100%; }
   .hero .hero-img {
     height: 100%;
@@ -45,8 +56,7 @@ nav {
     align-items: flex-end;
     justify-content: end; }
     .hero .hero-img img {
-      height: 90%;
-      margin-right: -5rem; }
+      height: 90%; }
   .hero .hero-content {
     position: absolute;
     width: 50%;
@@ -228,6 +238,7 @@ pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title
   left: 0;
   height: 100vh;
   width: 100vw;
+  z-index: 1000;
   pointer-events: none;
   opacity: 0; }
   .modal-container .modal {
