@@ -29,6 +29,12 @@ section {
     flex-wrap: wrap;
     justify-content: center; }
 
+.footer-simple {
+  text-align: center;
+  padding-bottom: 3rem;
+  background-color: #25262A;
+  font-family: "Ubuntu Mono", monospace; }
+
 .container {
   width: 75%;
   max-width: 960px;
