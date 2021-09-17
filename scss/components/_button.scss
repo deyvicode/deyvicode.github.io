@@ -1,26 +1,15 @@
-.btn-primary {
+.btn-contact-link {
+    padding: 1rem 1.5rem;
     font-family: $font-family-titles;
-    background-color: $color-accent-green;
-    padding: .6rem .75rem;
-    border: 0;
+    background-color: $color-neutro;
     border-radius: $border-radius;
-    color: $color-primary;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.btn-primary-dark {
-    font-family: $font-family-titles;
-    background-color: $color-accent-green-dark;
-    padding: .8rem 1rem;
-    border: 0;
-    border-radius: $border-radius;
-    color: $color-primary;
-    font-size: 1rem;
-    cursor: pointer;
-    //outline-color: $color-accent-green;
-
+    color: $color-text-paragraph;
     &:hover {
-        background-color: $color-accent-green;
+        border-color: $color-accent-green;
     }
+
+    i {
+        margin-right: .2rem;
+    }
+
 }
