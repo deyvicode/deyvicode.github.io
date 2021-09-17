@@ -20,6 +20,31 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 3rem; }
 
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem; }
+  .contact .contact-info {
+    flex: 1; }
+  .contact .contact-form {
+    flex: 1; }
+    .contact .contact-form .card {
+      background-color: whitesmoke;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      color: #25262A; }
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem; }
+  form .form-group label {
+    margin-bottom: .3rem; }
+
+form .form-footer {
+  text-align: end;
+  padding-top: 1rem; }
+
 .container {
   width: 75%;
   max-width: 960px;
@@ -88,6 +113,24 @@ nav {
   width: 5rem;
   font-family: "Open Sans", sans-serif;
   font-size: .75rem; }
+
+label {
+  font-family: "Ubuntu Mono", monospace; }
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #C5C5C5;
+  border-radius: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: .9rem;
+  outline-color: #2ad37f; }
+
+input {
+  height: 2rem;
+  padding: 1.1rem .5rem; }
+
+textarea {
+  padding: .5rem .5rem; }
 
 .tag {
   display: inline;
@@ -302,6 +345,18 @@ pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title
   color: #25262A;
   font-size: 1rem;
   cursor: pointer; }
+
+.btn-primary-dark {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #2ad37f;
+  padding: .8rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #25262A;
+  font-size: 1rem;
+  cursor: pointer; }
+  .btn-primary-dark:hover {
+    background-color: #64F5AC; }
 
 .carousel-gallery {
   height: 100%;

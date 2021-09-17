@@ -12,3 +12,42 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
 }
+
+// contact form
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+
+    .contact-info {
+        flex: 1;
+    }
+
+    .contact-form {
+        flex: 1;
+        .card {
+            background-color: whitesmoke;
+            border-radius: $border-radius;
+            padding: 2rem;
+            color: $color-primary;
+        }
+    }
+}
+
+form {
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+        label {
+            margin-bottom: .3rem;
+        }
+    }
+
+    .form-footer {
+        text-align: end;
+        padding-top: 1rem;
+    }
+}
