@@ -39,7 +39,9 @@ const showProjects = projects => {
 */
 
 const modalContainer = document.getElementById('modal-project')
-const btnCloseModal = document.getElementById('btn-close-modal')
+//const btnCloseModal = document.getElementById('btn-close-modal')
+const closeModal = Array.from(document.getElementsByClassName('btn-close-modal'))
+
 
 const projectGallery = document.getElementById('carousel-gallery')
 const projectName = document.getElementById('project-name')
@@ -55,10 +57,14 @@ const showProject = index => {
     document.body.style.overflow = 'hidden'
 }
 
-btnCloseModal.addEventListener('click', function () {
-    modalContainer.classList.remove('show')
-    document.body.style.overflow = 'auto'
+closeModal.forEach(element => {
+    element.addEventListener('click', function () {
+        modalContainer.classList.remove('show')
+        document.body.style.overflow = 'auto'
+    })  
 })
+
+
 
 const loadContentModal = index => {
     const project = projects[index]

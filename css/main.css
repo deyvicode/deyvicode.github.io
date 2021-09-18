@@ -28,8 +28,11 @@ section {
 
 .grid-projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 3rem; }
+  @media screen and (min-width: 640px) {
+    .grid-projects {
+      grid-template-columns: 1fr 1fr; } }
 
 .contact {
   text-align: center; }
@@ -414,18 +417,20 @@ pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title
   opacity: 0; }
   .modal-container .modal {
     background-color: #25262A;
-    width: 80%;
+    width: 90%;
     max-width: 100%;
-    height: 80%;
-    max-width: 100%;
+    height: 95%;
     margin: 1rem;
     border-radius: 0.5rem;
-    display: grid;
-    grid-template-columns: 3fr 2fr; }
+    display: grid; }
+    .modal-container .modal .modal-header {
+      text-align: right;
+      margin: 1rem 1rem 0 0; }
     .modal-container .modal .modal-body {
-      padding: 2rem 3rem 4rem 3rem;
+      padding: 0 1.5rem 1rem 1.5rem;
       overflow: hidden; }
       .modal-container .modal .modal-body .modal-header {
+        display: none;
         text-align: right;
         margin-bottom: 1rem; }
         .modal-container .modal .modal-body .modal-header i:hover {
@@ -460,6 +465,22 @@ pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title
                 display: inline-block;
                 width: 1em;
                 margin-left: -1em; }
+    @media screen and (min-width: 640px) {
+      .modal-container .modal {
+        width: 90%;
+        height: 90%;
+        grid-template-columns: 2fr 2fr; }
+        .modal-container .modal .modal-header {
+          display: none; }
+        .modal-container .modal .modal-body {
+          padding: 1rem 2rem 4rem 3rem; }
+          .modal-container .modal .modal-body .modal-header {
+            display: block; } }
+    @media screen and (min-width: 1024px) {
+      .modal-container .modal {
+        width: 90%;
+        height: 90%;
+        grid-template-columns: 3fr 2fr; } }
   .modal-container.show {
     pointer-events: auto;
     opacity: 1; }
@@ -478,14 +499,18 @@ pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title
 .carousel-gallery {
   height: 100%;
   display: flex;
-  flex-direction: column;
   overflow-y: auto;
-  row-gap: 30px;
+  gap: 30px;
   cursor: n-resize;
-  padding: 2rem 0;
-  margin-left: 2.5rem; }
+  padding: 1.5rem 1rem; }
   .carousel-gallery::-webkit-scrollbar {
     display: none; }
   .carousel-gallery img {
-    width: 100%;
     border-radius: 0.5rem; }
+  @media screen and (min-width: 640px) {
+    .carousel-gallery {
+      flex-direction: column;
+      margin-left: 2.5rem;
+      padding: 2rem 0; }
+      .carousel-gallery img {
+        width: 100%; } }

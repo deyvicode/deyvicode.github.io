@@ -15,22 +15,25 @@
 
     .modal {
         background-color: $color-primary;
-        width: 80%;
+        width: 90%;
         max-width: 100%;
-        height: 80%;
-        max-width: 100%;
+        height: 95%;
         margin: 1rem;
         border-radius: $border-radius;
-        
         display: grid;
-        grid-template-columns: 3fr 2fr;
+
+        .modal-header {
+            text-align: right;
+            margin: 1rem 1rem 0 0;
+        }
         
         .modal-body {
             
-            padding: 2rem 3rem 4rem 3rem;
+            padding: 0 1.5rem 1rem 1.5rem;
             overflow: hidden;
-
+            
             .modal-header {
+                display: none;
                 text-align: right;
                 margin-bottom: 1rem;
                 
@@ -44,8 +47,6 @@
                 height: 100%;
                 overflow: auto;
                 
-                
-
                 .project-name {
                     font-family: $font-family-titles;
                     font-size: 1rem * 1.75; //h3
@@ -88,6 +89,30 @@
                 }
 
             }
+        }
+
+        @include breakpoint(medium) {
+            width: 90%;
+            height: 90%;
+            grid-template-columns: 2fr 2fr;
+            
+            .modal-header {
+                display: none;
+            }
+
+            .modal-body {
+                padding: 1rem 2rem 4rem 3rem;
+
+                .modal-header {
+                    display: block;
+                }
+            }
+        }
+
+        @include breakpoint(large) {
+            width: 90%;
+            height: 90%;
+            grid-template-columns: 3fr 2fr;
         }
     }
 
