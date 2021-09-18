@@ -18,4 +18,8 @@ const showContent = index => {
     })
 
     contents[index].classList.add('active')
+
+    const y = contents[index].getBoundingClientRect().top + window.pageYOffset - 80
+    window.scrollTo({top: y, behavior: 'smooth'})
+
 }
