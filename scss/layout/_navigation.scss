@@ -8,6 +8,7 @@ nav {
     height: 100vh;
     clip-path: circle(4rem at 100vw 0);
     transition: clip-path .5s;
+    transition: all ease-in-out 1s;
 
     .menu-mobile {
         position: absolute;
@@ -91,7 +92,7 @@ nav {
     @include breakpoint(large) {
         background-color: $color-neutro;
         justify-content: center;
-        transition: all ease-in-out 1s;
+        //transition: all ease-in-out 1s;
 
         height: 4rem;
         clip-path: none;
