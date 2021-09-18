@@ -14,10 +14,8 @@
 body {
     background-color: $color-neutro;
     color: $color-text-paragraph;
-    width: 100vw;
-    main {
-        width: 100vw;
-    }
+    width: 100%;
+    //overflow: hidden;
 }
 
 
@@ -52,9 +50,24 @@ h5 {
 }
 
 a {
-    color: $color-text;
-    &:hover, &.active {
+    font-size: inherit;
+    
+    &.active {
         color: $color-accent-green;
+    }
+
+    &.primary {
+        color: $color-text;
+        &:hover {
+            color: $color-accent-green;
+        }
+    }
+
+    &.secondary {
+        color: $color-primary;
+        &:hover {
+            color: $color-neutro-light;
+        }
     }
 }
 

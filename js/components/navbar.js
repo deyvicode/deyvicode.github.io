@@ -29,3 +29,11 @@ menuIcon.addEventListener('click', function () {
 menuIconClose.addEventListener('click', function () {
     navbar.classList.remove('animate')
 })
+
+const linksMenuMobile = document.querySelectorAll('#navbar .container .main-menu a')
+
+linksMenuMobile.forEach(element => {
+    element.addEventListener('click', function () {
+        navbar.classList.remove('animate')
+    })  
+})

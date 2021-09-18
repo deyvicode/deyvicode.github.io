@@ -1,49 +1,13 @@
-.container {
-    width: 75%;
-    max-width: 960px;
-	min-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* 
-nav {
-    position: fixed;
-    background-color: $color-neutro;
-    width: 100vw;
-    
-    justify-content: center;
-    z-index: $nabvar-index;
-    transition: all ease-in-out 1s;
-    //box-shadow: 0 .1rem .5rem $color-primary;
-
-    .container {
-        display: none; //mobile
-
-        .main-menu {
-            display: flex;
-            justify-content: space-between;
-            margin: 1.5rem 0;
-    
-            .menu a {
-                margin-right: 1rem;
-            }
-    
-            .social-links a {
-                margin-right: 1rem;
-            }
-        }
-    }
-} */
-
 nav {
     position: fixed;
     background-color: $color-accent-green-dark;
     width: 100vw;
+    color: $color-text;
+    z-index: $nabvar-index;
+
     height: 100vh;
     clip-path: circle(4rem at 100vw 0);
     transition: clip-path .5s;
-    color: $color-text;
-    z-index: $nabvar-index;
 
     .menu-mobile {
         position: absolute;
@@ -86,21 +50,25 @@ nav {
     .container {
         height: 100vh;
         .main-menu {
+            display: flex;
+            justify-content: space-between;
+
             padding: 5rem 0;
             text-align: center;
-            display: flex;
             flex-direction: column;
-            justify-content: space-between;
             height: 100%;
-            color: $color-primary;
             
             .menu {
                 display: flex;
                 flex-direction: column;
                 gap: 3rem;
+                font-size: 2rem;
+
                 a {
-                    font-size: 2rem;
-                    color: inherit;
+                    color: $color-primary;
+                    &:hover {
+                        color: $color-accent-green;
+                    }
                 }
             }
 
@@ -110,10 +78,53 @@ nav {
                 gap: 2rem;
 
                 a {
-                    color: inherit;
+                    color: $color-primary;
+                    &:hover {
+                        color: $color-accent-green;
+                    }
                 }
             }
 
+        }
+    }
+
+    @include breakpoint(large) {
+        background-color: $color-neutro;
+        justify-content: center;
+        transition: all ease-in-out 1s;
+
+        height: 4rem;
+        clip-path: none;
+        transition: none;
+
+        .menu-mobile {
+            display: none;
+        }
+
+        .container {
+            height: 100%;
+            .main-menu {
+                padding: 0;
+                text-align: left;
+                margin: 1.5rem 0;
+                flex-direction: row;
+                
+                .menu {
+                    flex-direction: row;
+                    gap: .75rem;
+                    font-size: 1rem;
+
+                    a {
+                        margin-right: 1rem;
+                        color: $color-text;
+                    }
+                }
+        
+                .social-links a {
+                    margin-left: 1rem;
+                    color: $color-text;
+                }
+            }
         }
     }
 }
