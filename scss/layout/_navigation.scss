@@ -5,30 +5,115 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+/* 
 nav {
     position: fixed;
     background-color: $color-neutro;
     width: 100vw;
-    display: flex;
+    
     justify-content: center;
     z-index: $nabvar-index;
     transition: all ease-in-out 1s;
     //box-shadow: 0 .1rem .5rem $color-primary;
 
     .container {
-        flex: 1;
-        display: flex;
-        justify-content: space-between;
-        margin: 1.5rem 0;
+        display: none; //mobile
 
-        .menu a {
-            margin-right: 1rem;
-        }
-
-        .social-links a {
-            margin-right: 1rem;
-        }
+        .main-menu {
+            display: flex;
+            justify-content: space-between;
+            margin: 1.5rem 0;
     
+            .menu a {
+                margin-right: 1rem;
+            }
+    
+            .social-links a {
+                margin-right: 1rem;
+            }
+        }
+    }
+} */
+
+nav {
+    position: fixed;
+    background-color: $color-accent-green-dark;
+    width: 100vw;
+    height: 100vh;
+    clip-path: circle(4rem at 100vw 0);
+    transition: clip-path .5s;
+    color: $color-text;
+    z-index: $nabvar-index;
+
+    .menu-mobile {
+        position: absolute;
+        cursor: pointer;
+        right: 1rem;
+        top: .75rem;
+        color: $color-primary;
+        //font-size: 1.5rem;
+
+        i {
+            
+            &.icon-burger-open {
+                display: block;
+            }
+            
+            &.icon-burger-close {
+                display: none;
+            }
+
+            svg {
+                fill: $color-primary;
+            }
+        }
+
+    }
+
+    &.animate {
+        clip-path: circle(200% at 100vw 0);
+        
+        .menu-mobile i {
+            &.icon-burger-open {
+                display: none;
+            }
+            &.icon-burger-close {
+                display: block;
+            }
+        }
+    }
+
+    .container {
+        height: 100vh;
+        .main-menu {
+            padding: 5rem 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            color: $color-primary;
+            
+            .menu {
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                a {
+                    font-size: 2rem;
+                    color: inherit;
+                }
+            }
+
+            .social-links {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+
+                a {
+                    color: inherit;
+                }
+            }
+
+        }
     }
 }

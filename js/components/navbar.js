@@ -17,3 +17,15 @@ window.addEventListener('scroll', function () {
 
     pageLocation = currentLocation
 })
+
+
+const menuIcon = document.getElementById('menu-icon')
+const menuIconClose = document.getElementById('menu-icon-close')
+
+menuIcon.addEventListener('click', function () {
+    navbar.classList.add('animate')
+})
+
+menuIconClose.addEventListener('click', function () {
+    navbar.classList.remove('animate')
+})

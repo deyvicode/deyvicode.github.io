@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,21 +10,31 @@
 <body>
     <header>
         <nav id="navbar">
+            <div class="menu-mobile">
+                <i class="icon-burger-open" id="menu-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+                </i>
+                <i class="icon-burger-close" id="menu-icon-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                </i>
+            </div>
             <div class="container">
-                <div class="menu">
-                    <a href="#">Inicio</a>
-                    <a href="#">Sobre mi</a>
-                    <a href="#">Mis proyectos</a>
-                    <a href="#">Contactarme</a>
-                </div>
-    
-                <div class="social-links">
-                    <a href="#"><i class="bi bi-linkedin"></i> linkedin</a>
-                    <a href="#"><i class="bi bi-github"></i> github</a>
+                <div class="main-menu">
+                    <div class="menu">
+                        <a href="#home-section">Inicio</a>
+                        <a href="#about-section">Sobre mi</a>
+                        <a href="#projects-section">Mis proyectos</a>
+                        <a href="#contact-section">Contactarme</a>
+                    </div>
+        
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-linkedin"></i> linkedin</a>
+                        <a href="#"><i class="bi bi-github"></i> github</a>
+                    </div>
                 </div>
             </div>
         </nav>
-        <div class="hero container">
+        <div class="hero container" id="home-section">
             <div class="hero-img">
                 <img src="./img/person-image.png" alt="">
             </div>
@@ -53,7 +63,7 @@
         </div>
     </header>
     <main>
-        <section class="bg-primary">
+        <section class="bg-primary" id="about-section">
             <div class="container">
                 <div class="tab">
                     <div class="tab-links">
@@ -192,7 +202,7 @@
                 </div>
             </div>
         </section>
-        <section class="bg-neutro">
+        <section class="bg-neutro" id="projects-section">
             <div class="container">
                 <div class="section-title">
                     <h3>Mis Últimos Proyectos</h3>

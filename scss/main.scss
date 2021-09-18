@@ -2,11 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap');
 
 @import './utils/variables';
+@import './utils/mixins';
+
 @import './base/reset';
 @import './layout/grid';
 @import './layout/navigation';
 @import './layout/hero';
 
+@import './themes/default';
 //@import './components/form';
 @import './components/tag';
 @import './components/tab';
@@ -17,5 +20,3 @@
 @import './components/button';
 @import './components/carousel';
 
-
-@import './themes/default';

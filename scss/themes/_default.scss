@@ -1,18 +1,25 @@
-::-webkit-scrollbar {
-    background-color: $color-primary;
-    width: .75rem;
-}
-::-webkit-scrollbar-thumb {
-    background-color: $color-accent-green;
-    border-radius: $border-radius;
-    //border-left: 3px solid $color-primary;
-    //border-right: 3px solid $color-primary;
+@include breakpoint(large) {
+    ::-webkit-scrollbar {
+        background-color: $color-primary;
+        width: .75rem;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: $color-accent-green;
+        border-radius: $border-radius;
+        //border-left: 3px solid $color-primary;
+        //border-right: 3px solid $color-primary;
+    }
 }
 
 body {
     background-color: $color-neutro;
     color: $color-text-paragraph;
+    width: 100vw;
+    main {
+        width: 100vw;
+    }
 }
+
 
 h1, h2, h3, h4, h5, h6, a {
     font-family: $font-family-titles;
