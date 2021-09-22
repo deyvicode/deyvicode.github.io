@@ -226,7 +226,8 @@ h5 {
   margin: .25rem 0; }
 
 a {
-  font-size: inherit; }
+  font-size: inherit;
+  transition: color .7s; }
   a.active {
     color: #64F5AC; }
   a.primary {
@@ -288,7 +289,8 @@ small {
       .tab .tab-links .card .card-header {
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: center;
+        transition: color .7s; }
         .tab .tab-links .card .card-header i {
           font-size: 1.5rem; }
       .tab .tab-links .card .card-body {
@@ -296,9 +298,13 @@ small {
   .tab .tab-contents {
     flex: 3; }
     .tab .tab-contents .tab-content {
-      display: none; }
+      transition: opacity .4s ease-in-out;
+      opacity: 0;
+      height: 0;
+      overflow: hidden; }
       .tab .tab-contents .tab-content.active {
-        display: block; }
+        opacity: 1;
+        height: auto; }
   @media screen and (min-width: 640px) {
     .tab {
       flex-direction: row; } }
@@ -316,8 +322,10 @@ small {
       border-radius: 0.5rem;
       cursor: pointer; }
     .accordion .accordion-item .accordion-body {
-      display: none;
-      padding: .5rem 1rem; }
+      margin: .5rem 1rem;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .4s ease-in-out; }
       .accordion .accordion-item .accordion-body ul {
         margin-left: 1rem; }
         .accordion .accordion-item .accordion-body ul li {
@@ -327,7 +335,7 @@ small {
     .accordion .accordion-item.active i {
       color: #64F5AC; }
     .accordion .accordion-item.active .accordion-body {
-      display: block; }
+      max-height: 430px; }
       .accordion .accordion-item.active .accordion-body li {
         color: #64F5AC; }
 
@@ -376,7 +384,8 @@ pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title
       width: 100%;
       height: 100%;
       object-fit: cover;
-      opacity: .5; }
+      opacity: .5;
+      transition: opacity .7s ease-in-out; }
   .card-project:hover .card-img img {
     opacity: .9; }
   .card-project .card-footer {
@@ -414,7 +423,8 @@ pre.code-array-list.with-title span:nth-child(2), pre.code-array-list.with-title
   width: 100vw;
   z-index: 1000;
   pointer-events: none;
-  opacity: 0; }
+  opacity: 0;
+  transition: opacity .4s ease-in-out; }
   .modal-container .modal {
     background-color: #25262A;
     width: 90%;

@@ -18,11 +18,12 @@
             &.active .card-header {
                 color: $color-accent-green;
             }
-
+            
             .card-header {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                transition: color .7s;
 
                 i {
                     font-size: 1rem * 1.5;
@@ -39,10 +40,16 @@
         flex: 3;
 
         .tab-content {
-            display: none;
+            //display: none;
+            transition: opacity .4s ease-in-out;
+            opacity: 0;
+            height: 0;
+            overflow: hidden;
 
             &.active {
-                display: block;
+                //display: block;
+                opacity: 1;
+                height: auto;
             }
         }
     }

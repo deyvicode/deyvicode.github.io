@@ -13,6 +13,8 @@
     pointer-events: none;
     opacity: 0;
 
+    transition: opacity .4s ease-in-out;
+
     .modal {
         background-color: $color-primary;
         width: 90%;

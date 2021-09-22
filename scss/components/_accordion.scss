@@ -16,8 +16,12 @@
         }
 
         .accordion-body {
-            display: none;
-            padding: .5rem 1rem;
+            margin: .5rem 1rem;
+            //display: none;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height .4s ease-in-out;
+            
 
             ul {
                 margin-left: 1rem;
@@ -39,9 +43,9 @@
             }
 
             .accordion-body {
-                display: block;
+                //display: block;
+                max-height: 430px;
                 
-    
                 li {
                     color: $color-accent-green;
                 }

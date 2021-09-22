@@ -51,7 +51,7 @@ h5 {
 
 a {
     font-size: inherit;
-    
+    transition: color .7s;
     &.active {
         color: $color-accent-green;
     }
