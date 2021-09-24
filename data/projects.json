@@ -4,14 +4,14 @@
         "company": "Imaginatics Peru SAC",
         "resume": "Aplicacion web para restaurantes con todas las funcionalidades para cubrir todos los sus procesos y su facturación electronica.",
         "description": [
-            "Aplicacion web para restaurantes con todas las funcionalidades para cubrir todos los sus procesos y su facturación electronica.",
+            "Aplicacion web para restaurantes con funcionalidades para cubrir todos sus procesos y su facturación electronica.",
             "Integra Facturación Electrónica, Atención Autoservicio en local, sistema de delivery (cliente, local, cocina, reparto, etc)."
         ],
         "url": "papeat.com",
         "gallery": [
             "/img/projects/papeat-1.jpg",
-            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            "https://via.placeholder.com/640x360.jpg",
+            "https://via.placeholder.com/640x360.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery", "MySql", "Firebase", "Pusher", "Mercado Pago API"]
     },
@@ -25,8 +25,8 @@
         "url": "papeat.com",
         "gallery": [
             "/img/projects/safebill-1.jpg",
-            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            "https://via.placeholder.com/640x360.jpg",
+            "https://via.placeholder.com/640x360.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"]
     },
@@ -40,8 +40,8 @@
         "url": "papeat.com",
         "gallery": [
             "/img/projects/oti-1.jpg",
-            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            "https://via.placeholder.com/640x360.jpg",
+            "https://via.placeholder.com/640x360.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"]
     },
@@ -55,8 +55,8 @@
         "url": "papeat.com",
         "gallery": [
             "/img/projects/convocatorias-1.jpg",
-            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            "https://via.placeholder.com/640x360.jpg",
+            "https://via.placeholder.com/640x360.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"]
     },
@@ -70,8 +70,8 @@
         "url": null,
         "gallery": [
             "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            "https://via.placeholder.com/640x360.jpg",
+            "https://via.placeholder.com/640x360.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"]
     },
@@ -85,8 +85,8 @@
         "url": "papeat.com",
         "gallery": [
             "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            "https://images.pexels.com/photos/5489395/pexels-photo-5489395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "https://images.pexels.com/photos/6920117/pexels-photo-6920117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            "https://via.placeholder.com/640x360.jpg",
+            "https://via.placeholder.com/640x360.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"]
     }

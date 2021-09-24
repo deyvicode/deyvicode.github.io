@@ -19,7 +19,7 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-titles;
     font-weight: 400;
 }
@@ -50,6 +50,8 @@ h5 {
 }
 
 a {
+    font-family: $font-family-paragraph;
+    font-weight: 400;
     font-size: inherit;
     transition: color .7s;
     &.active {

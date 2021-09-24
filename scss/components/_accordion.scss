@@ -22,15 +22,18 @@
             overflow: hidden;
             transition: max-height .4s ease-in-out;
             
-
             ul {
                 margin-left: 1rem;
 
                 li {
                     margin-bottom: 1rem;
                     
-                    b {
-                        margin-bottom: .75rem;
+                    & :first-child {
+                        margin-bottom: .3rem;
+                    }
+
+                    & :last-child {
+                        color: rgba($color-text-paragraph, .8);
                     }
                 }
             }
