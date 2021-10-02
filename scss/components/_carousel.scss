@@ -12,6 +12,8 @@
 
     img {
         border-radius: $border-radius;
+        width: 100%;
+        height: auto;
     }
     
     @include breakpoint(medium) {

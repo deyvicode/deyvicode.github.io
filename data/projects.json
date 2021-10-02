@@ -7,13 +7,18 @@
             "Aplicacion web para restaurantes con funcionalidades para cubrir todos sus procesos y su facturación electronica.",
             "Integra Facturación Electrónica, Atención Autoservicio en local, sistema de delivery (cliente, local, cocina, reparto, etc)."
         ],
-        "url": "papeat.com",
         "gallery": [
             "/img/projects/papeat-1.jpg",
             "https://via.placeholder.com/640x360.jpg",
             "https://via.placeholder.com/640x360.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery", "MySql", "Firebase", "Pusher", "Mercado Pago API"]
+        "technologies": ["Bootstrap", "Laravel", "Jquery", "MySql", "Firebase", "Pusher", "Mercado Pago API"],
+        "links": [
+            {
+                "text": "website",
+                "url": "https://papeat.com"
+            }
+        ]
     },
     {
         "name": "SafeBill",
@@ -22,13 +27,18 @@
         "description": [
             "Aplicación web de facturación electrónica creada por Imaginatics Perú bajo las normativas de SUNAT."
         ],
-        "url": "papeat.com",
         "gallery": [
             "/img/projects/safebill-1.jpg",
             "https://via.placeholder.com/640x360.jpg",
             "https://via.placeholder.com/640x360.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+        "technologies": ["Bootstrap", "Laravel", "Jquery"],
+        "links": [
+            {
+                "text": "website",
+                "url": "https://safebill.imaginaticsperu.com"
+            }
+        ]
     },
     {
         "name": "Indicadores OTI",
@@ -37,13 +47,13 @@
         "description": [
             "El presente proyecto “SOFTWARE WEB PARA EL SEGUIMIENTO DE ATENCIONES DEL NIÑO Y GESTANTE” fue desarrollado con el objetivo de brindar una herramienta de consulta eficaz, confiable y moderna para la toma de decisiones de los diferentes niveles que conforman la Dirección de Salud de Huanuco."
         ],
-        "url": "papeat.com",
         "gallery": [
             "/img/projects/oti-1.jpg",
             "https://via.placeholder.com/640x360.jpg",
             "https://via.placeholder.com/640x360.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+        "technologies": ["Bootstrap", "Laravel", "Jquery"],
+        "links": null
     },
     {
         "name": "Web Convocatorias",
@@ -52,13 +62,13 @@
         "description": [
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
         ],
-        "url": "papeat.com",
         "gallery": [
             "/img/projects/convocatorias-1.jpg",
             "https://via.placeholder.com/640x360.jpg",
             "https://via.placeholder.com/640x360.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+        "technologies": ["Bootstrap", "Laravel", "Jquery"],
+        "links": null
     },
     {
         "name": "Table Oriente",
@@ -67,13 +77,13 @@
         "description": [
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
         ],
-        "url": null,
         "gallery": [
             "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "https://via.placeholder.com/640x360.jpg",
             "https://via.placeholder.com/640x360.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+        "technologies": ["Bootstrap", "Laravel", "Jquery"],
+        "links": null
     },
     {
         "name": "Agenda Escolar",
@@ -82,12 +92,12 @@
         "description": [
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
         ],
-        "url": "papeat.com",
         "gallery": [
             "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "https://via.placeholder.com/640x360.jpg",
             "https://via.placeholder.com/640x360.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"]
+        "technologies": ["Bootstrap", "Laravel", "Jquery"],
+        "links": null    
     }
 ]
