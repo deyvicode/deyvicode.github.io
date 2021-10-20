@@ -25,7 +25,7 @@ const showProjects = projects => {
                         <div class="project-name">${ project.name }</div>
                         <div class="project-company">${ project.company }</div>
                     </div>
-                    <div class="project-more" onclick="showProject(${index})">Saber más</div>
+                    <div class="project-more" onclick="showProject(${index})"><span>Saber más</span></div>
                 </div>
             </div>
         `

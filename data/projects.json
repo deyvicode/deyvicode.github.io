@@ -9,8 +9,8 @@
         ],
         "gallery": [
             "/img/projects/papeat-1.jpg",
-            "https://via.placeholder.com/640x360.jpg",
-            "https://via.placeholder.com/640x360.jpg"
+            "https://via.placeholder.com/1152x600.jpg",
+            "https://via.placeholder.com/1152x600.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery", "MySql", "Firebase", "Pusher", "Mercado Pago API"],
         "links": [
@@ -29,8 +29,8 @@
         ],
         "gallery": [
             "/img/projects/safebill-1.jpg",
-            "https://via.placeholder.com/640x360.jpg",
-            "https://via.placeholder.com/640x360.jpg"
+            "https://via.placeholder.com/1152x600.jpg",
+            "https://via.placeholder.com/1152x600.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"],
         "links": [
@@ -49,8 +49,8 @@
         ],
         "gallery": [
             "/img/projects/oti-1.jpg",
-            "https://via.placeholder.com/640x360.jpg",
-            "https://via.placeholder.com/640x360.jpg"
+            "https://via.placeholder.com/1152x600.jpg",
+            "https://via.placeholder.com/1152x600.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"],
         "links": null
@@ -63,12 +63,18 @@
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
         ],
         "gallery": [
-            "/img/projects/convocatorias-1.jpg",
-            "https://via.placeholder.com/640x360.jpg",
-            "https://via.placeholder.com/640x360.jpg"
+            "/img/projects/redsalud-1.jpg",
+            "/img/projects/redsalud-2.jpg",
+            "/img/projects/redsalud-3.jpg",
+            "/img/projects/redsalud-4.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"],
-        "links": null
+        "links": [
+            {
+                "text": "informe",
+                "url": "https://drive.google.com/file/d/1px_rxL13r9lit5ZVUBvMqQo-ec9pl-2m/view?usp=sharing"
+            }
+        ]
     },
     {
         "name": "Table Oriente",
@@ -79,8 +85,8 @@
         ],
         "gallery": [
             "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            "https://via.placeholder.com/640x360.jpg",
-            "https://via.placeholder.com/640x360.jpg"
+            "https://via.placeholder.com/1152x600.jpg",
+            "https://via.placeholder.com/1152x600.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"],
         "links": null
@@ -94,8 +100,8 @@
         ],
         "gallery": [
             "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            "https://via.placeholder.com/640x360.jpg",
-            "https://via.placeholder.com/640x360.jpg"
+            "https://via.placeholder.com/1152x600.jpg",
+            "https://via.placeholder.com/1152x600.jpg"
         ],
         "technologies": ["Bootstrap", "Laravel", "Jquery"],
         "links": null    
