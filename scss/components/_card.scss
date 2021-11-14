@@ -70,7 +70,7 @@
         }
     }
 
-    @include breakpoint(large) {
+    @include breakpoint(xxlarge) {
         .card-img img {
             height: auto;
         }

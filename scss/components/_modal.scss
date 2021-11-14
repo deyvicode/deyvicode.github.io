@@ -65,7 +65,7 @@
                 }
                 
                 .list-technologies {
-                    margin-top: 1rem;
+                    margin-top: 1.5rem;
 
                     ul {
                         margin-top: .75rem;
@@ -84,6 +84,14 @@
                                 display: inline-block; 
                                 width: 1em;
                                 margin-left: -1em;
+                            }
+
+                            a {
+                                color: inherit;
+                                font-family: inherit;
+                                &:hover {
+                                    color: $color-accent-green;
+                                }
                             }
                         }
 

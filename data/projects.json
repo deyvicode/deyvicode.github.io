@@ -9,10 +9,11 @@
         ],
         "gallery": [
             "/img/projects/papeat-1.jpg",
-            "https://via.placeholder.com/1152x600.jpg",
-            "https://via.placeholder.com/1152x600.jpg"
+            "/img/projects/papeat-2.jpg",
+            "/img/projects/papeat-3.jpg",
+            "/img/projects/papeat-4.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery", "MySql", "Firebase", "Pusher", "Mercado Pago API"],
+        "technologies": ["Bootstrap", "Laravel", "JQuery", "MySql", "Firebase", "Pusher", "Mercado Pago API", "GitLab"],
         "links": [
             {
                 "text": "website",
@@ -29,10 +30,11 @@
         ],
         "gallery": [
             "/img/projects/safebill-1.jpg",
-            "https://via.placeholder.com/1152x600.jpg",
-            "https://via.placeholder.com/1152x600.jpg"
+            "/img/projects/safebill-2.jpg",
+            "/img/projects/safebill-3.jpg",
+            "/img/projects/safebill-4.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"],
+        "technologies": ["Bootstrap", "Laravel", "JQuery", "BotMan", "MySql", "GitLab"],
         "links": [
             {
                 "text": "website",
@@ -45,22 +47,28 @@
         "company": "Dirección Regional de Salud - Huánuco",
         "resume": "Aplicacion web para el seguimiento y control de atenciones del niño y gestante en la región de Huánuco.",
         "description": [
-            "El presente proyecto “SOFTWARE WEB PARA EL SEGUIMIENTO DE ATENCIONES DEL NIÑO Y GESTANTE” fue desarrollado con el objetivo de brindar una herramienta de consulta eficaz, confiable y moderna para la toma de decisiones de los diferentes niveles que conforman la Dirección de Salud de Huanuco."
+            "El proyecto “SOFTWARE WEB PARA EL SEGUIMIENTO DE ATENCIONES DEL NIÑO Y GESTANTE” fue desarrollado con el objetivo de brindar una herramienta de consulta eficaz, confiable y moderna para la toma de decisiones de los diferentes niveles que conforman la Dirección de Salud de Huánuco."
         ],
         "gallery": [
             "/img/projects/oti-1.jpg",
-            "https://via.placeholder.com/1152x600.jpg",
-            "https://via.placeholder.com/1152x600.jpg"
+            "/img/projects/oti-2.jpg",
+            "/img/projects/oti-3.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"],
-        "links": null
+        "technologies": ["Bootstrap", "Laravel", "JQuery", "MySql", "GitLab"],
+        "links": [
+            {
+                "text": "Proyecto privado",
+                "url": null
+            }
+        ]
     },
     {
         "name": "Web Convocatorias",
         "company": "Red de Salud Huánuco",
         "resume": "Aplicacion web para convocatorias de RRHH como proyecto de bachillerato.",
         "description": [
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
+            "Web al estilo de un blog para servir como portal institucional y también para la publicación de convocatorias de RRHH, con un dashboard de gestión de contenidos para administradores e intranet de postulantes.",
+            "Este proyecto lo desarrollé como parte de mis practicas pre-profesionales para la carrera de Ingenieria de Sistemas."
         ],
         "gallery": [
             "/img/projects/redsalud-1.jpg",
@@ -68,42 +76,12 @@
             "/img/projects/redsalud-3.jpg",
             "/img/projects/redsalud-4.jpg"
         ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"],
+        "technologies": ["Bootstrap", "Laravel", "JQuery", "MySql", "GitLab"],
         "links": [
             {
-                "text": "informe",
+                "text": "Informe de proyecto",
                 "url": "https://drive.google.com/file/d/1px_rxL13r9lit5ZVUBvMqQo-ec9pl-2m/view?usp=sharing"
             }
         ]
-    },
-    {
-        "name": "Table Oriente",
-        "company": "Table Oriente SAC",
-        "resume": "Software de escritorio para administrar recursos e indumentaria.",
-        "description": [
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
-        ],
-        "gallery": [
-            "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            "https://via.placeholder.com/1152x600.jpg",
-            "https://via.placeholder.com/1152x600.jpg"
-        ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"],
-        "links": null
-    },
-    {
-        "name": "Agenda Escolar",
-        "company": "La Catolica",
-        "resume": "Aplicacion web para gestion de actividades escolares y matricula de estudiantes.",
-        "description": [
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aliquid vel sequi provident eveniet sit et animi id quae fuga qui neque exercitationem, iusto ex quibusdam debitis commodi est deserunt?"
-        ],
-        "gallery": [
-            "https://images.pexels.com/photos/1462725/pexels-photo-1462725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            "https://via.placeholder.com/1152x600.jpg",
-            "https://via.placeholder.com/1152x600.jpg"
-        ],
-        "technologies": ["Bootstrap", "Laravel", "Jquery"],
-        "links": null    
     }
 ]

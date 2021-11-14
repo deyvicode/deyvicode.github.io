@@ -25,7 +25,9 @@ const showProjects = projects => {
                         <div class="project-name">${ project.name }</div>
                         <div class="project-company">${ project.company }</div>
                     </div>
-                    <div class="project-more" onclick="showProject(${index})"><span>Saber más</span></div>
+                    <div class="project-more" onclick="showProject(${index})">
+                        <span>Saber más</span>
+                    </div>
                 </div>
             </div>
         `
@@ -48,6 +50,7 @@ const projectName = document.getElementById('project-name')
 const projectCompany = document.getElementById('project-company')
 const projectDescription = document.getElementById('project-description')
 const projectTechs = document.getElementById('list-technologies')
+const projectLinks = document.getElementById('list-links')
 
 const showProject = index => {
 
@@ -95,5 +98,23 @@ const loadContentModal = index => {
         let li = document.createElement('li')
         li.innerText = tech
         projectTechs.appendChild(li)
+    })
+
+    projectLinks.innerHTML = ''
+    project.links.forEach(link => {
+        let li = document.createElement('li')
+        if (link.url) {
+            let a = document.createElement('a')
+            a.innerText = link.text
+            a.href = link.url
+            a.target = "_blank"
+            a.rel = "noopener"
+    
+            li.appendChild(a)
+        } else {
+            li.innerText = link.text
+        }
+
+        projectLinks.appendChild(li)
     })
 }
