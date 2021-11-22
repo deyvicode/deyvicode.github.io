@@ -17,4 +17,4 @@ Espero disfrutes de cada detalle que le puse con mucho cariño.
 - mi linkedin: https://www.linkedin.com/in/deyvidelacruz/
 
 ## Licencia
-Este proyecto es de codigo abierto, esta bajo la licencia GPL v3.0. Por favor revise los términos y condiciones de usar este proyecto en el archivo [LICENSE](./LICENCE).
+Este proyecto es de codigo abierto y esta bajo la licencia GPL v3.0. Por favor revise los términos y condiciones antes de usar este proyecto en el archivo [LICENSE](./LICENCE).
