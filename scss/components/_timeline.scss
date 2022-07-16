@@ -1,0 +1,25 @@
+.timeline-area {
+    margin-left: 15px;
+    border-left: 2px solid rgba($color-accent-green, 0.2);
+    padding: 0 10px 0 30px;
+
+    div {
+        padding: 0 10px;
+        line-height: 1.7;
+        position: relative;
+        height: 105px;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: $color-neutro;
+            border: 3px solid $color-accent-green;
+            position: absolute;
+            top: 10px;
+            left: -36px;
+        }
+    }
+}

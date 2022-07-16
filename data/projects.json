@@ -1,5 +1,33 @@
 [
     {
+        "name": "SunLover Ecoomerce",
+        "company": "Coderhouse",
+        "resumen": "Ecoomerce para la venta de gafas de sol",
+        "description": [
+            "SunLover es un proyecto ecommerce de una tienda ficticia de venta de gafas de sol modernos y de temporada. Este proyecto fue construido para el curso ReactJS de Coderhouse."
+        ],
+        "gallery": [
+            "/img/projects/sunlover-1.jpg",
+            "/img/projects/sunlover-2.jpg",
+            "/img/projects/sunlover-3.jpg"
+        ],
+        "technologies": ["ReactJS", "Firebase", "Sass"],
+        "links": [
+            {
+                "text": "webpage",
+                "url": "https://sunlover-cfe53.web.app"
+            },
+            {
+                "text": "video demo",
+                "url": "https://youtu.be/7zeXFSGkQo8"
+            },
+            {
+                "text": "repositorio",
+                "url": "https://github.com/deyvicode/sunlover"
+            }
+        ]
+    },
+    {
         "name": "Papeat",
         "company": "Imaginatics Peru SAC",
         "resume": "Aplicacion web para restaurantes con todas las funcionalidades para cubrir todos los sus procesos y su facturación electronica.",
@@ -59,28 +87,6 @@
             {
                 "text": "Proyecto privado",
                 "url": null
-            }
-        ]
-    },
-    {
-        "name": "Web Convocatorias",
-        "company": "Red de Salud Huánuco",
-        "resume": "Aplicacion web para convocatorias de RRHH como proyecto de bachillerato.",
-        "description": [
-            "Web al estilo de un blog para servir como portal institucional y también para la publicación de convocatorias de RRHH, con un dashboard de gestión de contenidos para administradores e intranet de postulantes.",
-            "Este proyecto lo desarrollé como parte de mis practicas pre-profesionales para la carrera de Ingenieria de Sistemas."
-        ],
-        "gallery": [
-            "/img/projects/redsalud-1.jpg",
-            "/img/projects/redsalud-2.jpg",
-            "/img/projects/redsalud-3.jpg",
-            "/img/projects/redsalud-4.jpg"
-        ],
-        "technologies": ["Bootstrap", "Laravel", "JQuery", "MySql", "GitLab"],
-        "links": [
-            {
-                "text": "Informe de proyecto",
-                "url": "https://drive.google.com/file/d/1px_rxL13r9lit5ZVUBvMqQo-ec9pl-2m/view?usp=sharing"
             }
         ]
     }
